@@ -9,7 +9,7 @@ I just downloaded the entire git, tried to understand how things are working by 
 Since Github supports Jekyll natively, I could just push the whole set of files as is to a newly created repo (idling-mind.github.io) and voila! everything is working fine!
 Super excited! Planning to make some changes to the way site is laid out soon.
 Here are the things in my mind
-1. Edit the theme so that it follows google's [Material Design](http://www.getmdl.io/index.html)
-2. Add a commenting option in the page with the help of [Diqus](https://disqus.com/)
-3. Add an Archive page with links to all my posts
-4. Write some good posts!!
+ 1. Edit the theme so that it follows google's [Material Design](http://www.getmdl.io/index.html)
+ 2. Add a commenting option in the page with the help of [Diqus](https://disqus.com/)
+ 3. Add an Archive page with links to all my posts
+ 4. Write some good posts!!
