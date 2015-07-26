@@ -9,7 +9,7 @@ title:               Idling Mind
 tagline:             'Random muses of an idle mind'
 description:         'This is 21st Century. Everybody should be able to write code, even a mechanical engineer like me. I get pretty excited about quite a lot of things, especially if its anything creative. Here are some of my random muses'
 url:                 http://idling-mind.github.io
-baseurl:             ''
+baseurl:             'http://idling-mind.github.io/'
 paginate:            5
 
 # About/contact
