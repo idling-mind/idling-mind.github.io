@@ -26,4 +26,18 @@
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+
+  <!-- Custom CSS-->
+{% if page.customcss %}
+  {% for stylesheet in page.customcss %}
+  <link rel="stylesheet" href="{{ stylesheet }}" media="screen" type="text/css">
+  {% endfor %}
+{% endif %}
+
+  <!-- Custom JS-->
+{% if page.customjs %}
+  {% for js_file in page.customjs %}
+  <script src='{{ js_file }}' type="text/javascript"></script>
+  {% endfor %}
+{% endif %}
 </head>
