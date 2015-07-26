@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hello World!
+excerpt: I got my blog up. It was a struggle, but i finally managed to get it working using Github pages and Jekyll.
 ---
 
 Got my blog online. It was a struggle! I am pretty new to [Github Pages](https://pages.github.com/) (i'm pretty new to [Github](https://github.com) as well!). I heard about [Jekyll](http://jekyllrb.com/) for the first time today. It took some time to figure out what it is. 

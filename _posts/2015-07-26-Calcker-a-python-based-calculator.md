@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Calcker
+excerpt: Calcker, a python based calculator. I was not so happy with the default linux calculator. So I decided to make one for myself.
 ---
 Calcker, a python based calculator. I was not so happy with the default linux calculator and so I decided to make one for myself.
 
