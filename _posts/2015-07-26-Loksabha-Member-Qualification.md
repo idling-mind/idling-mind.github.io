@@ -9,8 +9,8 @@ function initializeViz() {
   var placeholderDiv = document.getElementById("tableauViz");
   var url = "https://public.tableau.com/views/LoksabhaMemberQualification/Sheet4";
   var options = {
-    width: 800px,
-    height: 800px,
+    width: 800
+    height: 800
     hideTabs: true,
     hideToolbar: true,
     onFirstInteractive: function () {
