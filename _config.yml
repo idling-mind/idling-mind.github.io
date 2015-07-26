@@ -6,8 +6,8 @@ relative_permalinks: true
 
 # Setup
 title:               Idling Mind
-tagline:             'A Mechanical Engineer who loves to write some code'
-description:         'This is 21st Century. Everybody should be able to write code, even a mechanical engineer. Heres some of my muses'
+tagline:             'Random muses of an idle mind'
+description:         'This is 21st Century. Everybody should be able to write code, even a mechanical engineer like me. I get pretty excited about quite a lot of things, especially if its anything creative. Here are some of my random muses'
 url:                 http://idling-mind.github.io
 baseurl:             ''
 paginate:            5
