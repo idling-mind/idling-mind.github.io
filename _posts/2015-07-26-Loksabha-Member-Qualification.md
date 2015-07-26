@@ -10,7 +10,7 @@ Indian polititians usually have a bad reputation when it comes to their educatio
 <script>
 window.onload = function () {
   var placeholderDiv = document.getElementById("tableauViz");
-  var url = "https://public.tableau.com/views/LoksabhaMemberQualification/MemberQualification;
+  var url = "https://public.tableau.com/views/LoksabhaMemberQualification/MemberQualification";
   var options = {
     height: 800,
     hideTabs: true,
