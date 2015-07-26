@@ -2,9 +2,11 @@
 layout: post
 title: Indian Loksabha - Member Qualification
 customjs: https://online.tableau.com/javascripts/api/tableau-2.0.0.min.js
+excerpt_separator: <!--more-->
 ---
 Indian polititians usually have a bad reputation when it comes to their education qualifications. So I was wondering if there is some way to summarize that info. This is what I found.
 
+<!--more-->
 <script>
 window.onload = function () {
   var placeholderDiv = document.getElementById("tableauViz");
