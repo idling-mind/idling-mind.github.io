@@ -7,10 +7,10 @@ Indian polititians usually have a bad reputation when it comes to their educatio
 <script>
 function initializeViz() {
   var placeholderDiv = document.getElementById("tableauViz");
-  var url = "http://public.tableau.com/views/WorldIndicators/GDPpercapita";
+  var url = "https://public.tableau.com/views/LoksabhaMemberQualification/Sheet4";
   var options = {
-    width: placeholderDiv.offsetWidth,
-    height: placeholderDiv.offsetHeight,
+    width: 800px,
+    height: 800px,
     hideTabs: true,
     hideToolbar: true,
     onFirstInteractive: function () {
@@ -22,6 +22,8 @@ function initializeViz() {
 } 
 initializeViz();
 </script>
+
+<div id='tableuViz'></div>
 
 The data for this infograph comes from the [this site](http://164.100.47.132/LssNew/Members/breif_alphalist.aspx). I plotted it using [Tableau Public](https://public.tableau.com/s/).
 
