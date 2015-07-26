@@ -6,8 +6,8 @@ relative_permalinks: true
 
 # Setup
 title:               Idling Mind
-tagline:             'A Mechanical Engineer with a flare to write code'
-description:         'I am a mechanical engineer working at GKN aerospace. I love anything pretty, be it a website, a photograph, an art piece.... and so on. And I am really excited if I am able to create one myself.'
+tagline:             'A Mechanical Engineer who loves to write some code'
+description:         'This is 21st Century. Everybody should be able to write code, even a mechanical engineer. Heres some of my muses'
 url:                 http://idling-mind.github.io
 baseurl:             ''
 paginate:            5
