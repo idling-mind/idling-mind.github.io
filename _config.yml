@@ -12,6 +12,10 @@ url:                 http://idling-mind.github.io
 baseurl:             'http://idling-mind.github.io'
 paginate:            5
 
+# gems
+gems:                
+  - jekyll-sitemap
+
 # About/contact
 author:
   name:              Najeem Muhammed
