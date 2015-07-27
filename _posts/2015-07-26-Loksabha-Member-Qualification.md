@@ -12,7 +12,7 @@ window.onload = function () {
   var placeholderDiv = document.getElementById("tableauViz");
   var url = "https://public.tableau.com/views/LoksabhaMemberQualification/MemberQualification";
   var options = {
-    width: placeholderDiv.offsetWidth, 
+    width: 800, 
     height: 1000,
     hideTabs: true,
     hideToolbar: true,
