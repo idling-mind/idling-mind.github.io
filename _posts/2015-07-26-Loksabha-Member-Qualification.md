@@ -1,11 +1,31 @@
 ---
 layout: post
 title: Indian Loksabha - Member Qualification
-excerpt: Indian polititians usually have a bad reputation when it comes to their education qualifications. So I was wondering if there is some way to summarize that info. This is what I found.
+customjs: https://online.tableau.com/javascripts/api/tableau-2.0.0.min.js
+excerpt: Indian polititians usually have a bad reputation when it comes to their education qualifications. So I was wondering if there is some way to summarize that info. This is what I found, and it, in my view, contrdicts the usual opinion.
 ---
-Indian polititians usually have a bad reputation when it comes to their education qualifications. So I was wondering if there is some way to summarize that info. This is what I found.
+Indian polititians usually have a bad reputation when it comes to their education qualifications. So I was wondering if there is some way to summarize that info. This is what I found, and it, in my view, contrdicts the usual opinion.
 
-<script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 982px; height: 742px;'><noscript><a href='#'><img alt='MemberQualification ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Lo&#47;LoksabhaMemberQualification&#47;MemberQualification&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='982' height='742' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='LoksabhaMemberQualification&#47;MemberQualification' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Lo&#47;LoksabhaMemberQualification&#47;MemberQualification&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showVizHome' value='no' /><param name='showTabs' value='y' /><param name='bootstrapWhenNotified' value='true' /></object></div>
+
+<script>
+window.onload = function () {
+  var placeholderDiv = document.getElementById("tableauViz");
+  var url = "https://public.tableau.com/views/LoksabhaMemberQualification/MemberQualification";
+  var options = {
+    width: 800, 
+    height: 1000,
+    hideTabs: true,
+    hideToolbar: true,
+    onFirstInteractive: function () {
+      workbook = viz.getWorkbook();
+      activeSheet = workbook.getActiveSheet();
+    }
+  };
+  viz = new tableau.Viz(placeholderDiv, url, options);
+} 
+</script>
+
+<div id='tableauViz'></div>
 
 The data for this infograph comes from the [this site](http://164.100.47.132/LssNew/Members/breif_alphalist.aspx). I plotted it using [Tableau Public](https://public.tableau.com/s/).
 
