@@ -25,12 +25,16 @@ body {
     background-color:#E84A5F;
     padding:0;
     color:white;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align:center;
 }
 .banner h1{
-    font-family: 'Gloria Hallelujah', cursive;
     font-size:40px;
     color:white;
-    }
+}
+.banner p{
+    font-size:25px;
+}
 .post-date{
   display:block;
   color:gray;
@@ -77,7 +81,12 @@ body {
   padding-right: 15px;
   padding-left: 15px;
 }
-
-code {
-  font-size: 80%;
+@media (min-width:992px){
+    .banner h1{
+        font-size:70px;
+        margin:50px 0;
+    }
+    .banner p{
+        font-size:40px;
+    }
 }
