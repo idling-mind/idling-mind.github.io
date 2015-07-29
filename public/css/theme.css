@@ -15,6 +15,10 @@ body {
 .navbar-brand{
   font-size:30px;
 }
+.post-date{
+  display:block;
+  color:gray;
+}
 .post-more{
   display:inline-block;
 }
