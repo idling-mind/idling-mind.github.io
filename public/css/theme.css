@@ -9,17 +9,15 @@ body {
   font-family: "PT Serif", Georgia, "Times New Roman", serif;
   font-size:18px;
 }
-.navbar{
-  box-shadow:2px 2px 3px #888;
-}
 .navbar-brand{
   font-size:30px;
 }
 .section{
-    padding:20px 0;
 }
 .banner{
-    background:black url("{{ site.bannnerurl }}") no-repeat fixed center;
+    background:black url("/assets/images/sunset.jpg") no-repeat fixed center;
+    height:400px;
+    padding:0;
 }
 .post-date{
   display:block;
@@ -31,6 +29,7 @@ body {
 .post-list{
   background-color:#2A363B;
   color:#ccc;
+  padding:20px 0;
 }
 .post-list h2 {
     color:#99B898;
@@ -38,6 +37,11 @@ body {
 .post-list .post-more{
     color:#E84A5F;
     display:block;
+}
+.insta-list{
+    padding:0;
+    overflow:hidden;
+    background-color:#2A363B;
 }
 .footer {
   position: absolute;
