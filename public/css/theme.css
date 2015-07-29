@@ -1,3 +1,10 @@
+/* Palette
+ * #99B898
+ * #FECEA8
+ * #FF847C
+ * #E84A5F
+ * #2A363B
+ */
 html {
   position: relative;
   min-height: 100%;
@@ -15,10 +22,13 @@ body {
 .section{
 }
 .banner{
-    background:black url("/assets/images/sunset.jpg") no-repeat scroll center;
-    height:400px;
+    background-color:#E84A5F;
     padding:0;
 }
+.banner .h1{
+    font-size:40px;
+    color:white;
+    }
 .post-date{
   display:block;
   color:gray;
