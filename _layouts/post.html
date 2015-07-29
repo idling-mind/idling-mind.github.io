@@ -8,5 +8,7 @@ layout: default
       </div>
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
+  
+  {% include disqus.html %}
 </div>
-{% include disqus.html %}
+
