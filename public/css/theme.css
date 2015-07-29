@@ -3,6 +3,7 @@
 html {
   position: relative;
   min-height: 100%;
+  font-family: "PT Serif", Georgia, "Times New Roman", serif;
 }
 body {
   /* Margin bottom by footer height */
