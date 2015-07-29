@@ -12,7 +12,7 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="{% if page.url == site.baseurl %}active{% endif %}"><a href="{{ site.url }}">Home</a></li>
+            <li class="{% if page.url == "/index.html" %}active{% endif %}"><a href="{{ site.url }}">Home</a></li>
             {% assign pages_list = site.pages | sort:"url" %}
             {% for node in pages_list %}
               {% if node.title != null %}
