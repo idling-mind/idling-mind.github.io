@@ -24,6 +24,7 @@ body {
 .banner{
     background-color:#E84A5F;
     padding:0;
+    color:white;
 }
 .banner .h1{
     font-size:40px;
