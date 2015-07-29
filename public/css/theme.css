@@ -15,7 +15,7 @@ body {
 .section{
 }
 .banner{
-    background:black url("/assets/images/sunset.jpg") no-repeat fixed center;
+    background:black url("/assets/images/sunset.jpg") no-repeat scroll center;
     height:400px;
     padding:0;
 }
