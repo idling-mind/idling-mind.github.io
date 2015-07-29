@@ -23,22 +23,22 @@ title: Home
           <a class="post-more" href={{ post.url }}>More >></a>
         </div>
       {% endfor %}
+          <nav>
+            <ul class="pager">
+              {% if paginator.next_page %}
+                <li class="previous disabled"><a href="{{ site.baseurl }}/page{{paginator.next_page}}"><span aria-hidden="true">&larr;</span> Older</a></li>
+              {% else %}
+                <li class="previous disabled"><a href="#"><span aria-hidden="true">&larr;</span> Older</a></li>
+              {% endif %}
+              {% if paginator.previous_page %}
+                {% if paginator.page == 2 %}
+                  <li class="next"><a href="{{ site.baseurl }}/">Newer <span aria-hidden="true">&rarr;</span></a></li>
+                {% else %}
+                  <li class="next"><a href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer <span aria-hidden="true">&rarr;</span></a></li>
+                {% endif %}
+              {% else %}
+                <li class="next disabled"><a href="#">Newer <span aria-hidden="true">&rarr;</span></a></li>
+              {% endif %}
+            </ul>
+          </nav>
       </div>
-      <nav>
-        <ul class="pager">
-          {% if paginator.next_page %}
-            <li class="previous disabled"><a href="{{ site.baseurl }}/page{{paginator.next_page}}"><span aria-hidden="true">&larr;</span> Older</a></li>
-          {% else %}
-            <li class="previous disabled"><a href="#"><span aria-hidden="true">&larr;</span> Older</a></li>
-          {% endif %}
-          {% if paginator.previous_page %}
-            {% if paginator.page == 2 %}
-              <li class="next"><a href="{{ site.baseurl }}/">Newer <span aria-hidden="true">&rarr;</span></a></li>
-            {% else %}
-              <li class="next"><a href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer <span aria-hidden="true">&rarr;</span></a></li>
-            {% endif %}
-          {% else %}
-            <li class="next disabled"><a href="#">Newer <span aria-hidden="true">&rarr;</span></a></li>
-          {% endif %}
-        </ul>
-      </nav>
