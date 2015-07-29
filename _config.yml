@@ -11,6 +11,7 @@ description:         'This is 21st Century. Everybody should be able to write co
 url:                 http://idling-mind.github.io
 baseurl:             'http://idling-mind.github.io'
 paginate:            5
+bannerurl:           '/assets/images/sunset.jpg'
 
 # gems
 gems:                

@@ -4,46 +4,54 @@ title: Home
 ---
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
-      </div>
+    <div class="section banner">
+        <img src="{{ site.bannerurl }}" alt="{{ site.title }}">
     </div>
-
-    <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-      {% for post in paginator.posts %}
-        <div class="col-md-4">
-          <h2>{{ post.title }}</h2>
-          <span class="post-date">{{ post.date | date_to_string }}</span>
-          {{ post.excerpt }}
-          <a class="post-more" href={{ post.url }}>More >></a>
-        </div>
-      {% endfor %}
-      </div>
-         <div class="row">
-           <div class="col-md-12">
-              <nav>
-                <ul class="pager">
-                  {% if paginator.next_page %}
-                    <li class="previous disabled"><a href="{{ site.baseurl }}/page{{paginator.next_page}}"><span aria-hidden="true">&larr;</span> Older</a></li>
-                  {% else %}
-                    <li class="previous disabled"><a href="#"><span aria-hidden="true">&larr;</span> Older</a></li>
-                  {% endif %}
-                  {% if paginator.previous_page %}
-                    {% if paginator.page == 2 %}
-                      <li class="next"><a href="{{ site.baseurl }}/">Newer <span aria-hidden="true">&rarr;</span></a></li>
-                    {% else %}
-                      <li class="next"><a href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer <span aria-hidden="true">&rarr;</span></a></li>
-                    {% endif %}
-                  {% else %}
-                    <li class="next disabled"><a href="#">Newer <span aria-hidden="true">&rarr;</span></a></li>
-                  {% endif %}
-                </ul>
-              </nav>
+    <div class="section post-list">
+        <div class="container">
+          <!-- Example row of columns -->
+          <div class="row">
+          {% for post in paginator.posts %}
+            <div class="col-md-4">
+              <h2>{{ post.title }}</h2>
+              <span class="post-date">{{ post.date | date_to_string }}</span>
+              {{ post.excerpt }}
+              <a class="post-more" href={{ post.url }}>More >></a>
+            </div>
+          {% endfor %}
+          </div>
+             <div class="row">
+               <div class="col-md-12">
+                  <nav>
+                    <ul class="pager">
+                      {% if paginator.next_page %}
+                        <li class="previous disabled"><a href="{{ site.baseurl }}/page{{paginator.next_page}}"><span aria-hidden="true">&larr;</span> Older</a></li>
+                      {% else %}
+                        <li class="previous disabled"><a href="#"><span aria-hidden="true">&larr;</span> Older</a></li>
+                      {% endif %}
+                      {% if paginator.previous_page %}
+                        {% if paginator.page == 2 %}
+                          <li class="next"><a href="{{ site.baseurl }}/">Newer <span aria-hidden="true">&rarr;</span></a></li>
+                        {% else %}
+                          <li class="next"><a href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer <span aria-hidden="true">&rarr;</span></a></li>
+                        {% endif %}
+                      {% else %}
+                        <li class="next disabled"><a href="#">Newer <span aria-hidden="true">&rarr;</span></a></li>
+                      {% endif %}
+                    </ul>
+                  </nav>
+               </div>
            </div>
        </div>
-   </div>
+    </div>
+    <div class="section insta-list"
+       <div class="container">
+            <div class="row">
+                <div class-"cold-md-12">
+                    <!-- SnapWidget -->
+                    <script src="http://snapwidget.com/js/snapwidget.js"></script>
+                    <iframe src="http://snapwidget.com/in/?u=bmFqZWVtX218aW58MjAwfDZ8MXx8bm98MHxmYWRlT3V0fG9uU3RhcnR8bm98eWVz&ve=290715" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
+                </div>
+            </div>
+       </div>
+    </div>

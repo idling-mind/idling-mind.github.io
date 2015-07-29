@@ -15,12 +15,29 @@ body {
 .navbar-brand{
   font-size:30px;
 }
+.section{
+    padding:20px 0;
+}
+.banner{
+    background:black url("{{ site.bannnerurl }}") no-repeat fixed center;
+}
 .post-date{
   display:block;
   color:gray;
 }
 .post-more{
   display:inline-block;
+}
+.post-list{
+  background-color:#2A363B;
+  color:#ccc;
+}
+.post-list h2 {
+    color:#99B898;
+}
+.post-list .post-more{
+    color:#E84A5F;
+    display:block;
 }
 .footer {
   position: absolute;
@@ -29,7 +46,7 @@ body {
   /* Set the fixed height of the footer here */
   height: 100px;
   overflow:hidden;
-  background-color: #f5f5f5;
+  background-color: #E84A5F;
 }
 
 /* Custom page CSS
