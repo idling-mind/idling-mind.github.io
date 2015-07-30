@@ -27,10 +27,10 @@ body {
 }
 #navbar li.active>a{
     color:#E84A5F; 
+    background-color:inherit;
 }
 #navbar a:hover{
-    color:white;
-    background-color:#E84A5F;
+    color:#E84A5F;
 }
 .section{
 }
