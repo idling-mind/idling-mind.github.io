@@ -75,7 +75,7 @@ h1,h2,h3{
 }
 .post-list h2 {
     color:#99B898;
-    font-size:30px;
+    font-size:20px;
 }
 .post-list .post-more{
     color:#E84A5F;
@@ -120,6 +120,6 @@ h1,h2,h3{
         font-size:35px;
     }
     .post-list h2 {
-        font-size:40px;
+        font-size:30px;
     }
 }
