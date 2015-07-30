@@ -103,8 +103,13 @@ h1,h2,h3{
   padding-right: 15px;
   padding-left: 15px;
 }
-.footer-list li{
+.footer-list a{
     display:block;
+  color:rgba(255,255,255,0.3);
+}
+.footer-list a:hover{
+  color:rgba(255,255,255,0.5);
+}
 }
 .footer-list li>a{
     color:rgba(255,255,255,0.5);
