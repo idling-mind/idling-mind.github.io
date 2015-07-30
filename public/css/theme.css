@@ -12,12 +12,20 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-top: 50px;
-  margin-bottom: 100px; /*Edit footer height according to this*/
+  margin-bottom: 200px; /*Edit footer height according to this*/
   font-family: "PT Serif", Georgia, "Times New Roman", serif;
   font-size:18px;
 }
 .navbar-brand{
-  font-size:30px;
+    font-size:25px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.navbar{
+    background-color:#2A363B;
+    border:0;
+}
+.navbar .active{
+    color:#E84A5F; 
 }
 .section{
 }
@@ -58,21 +66,18 @@ body {
     padding:0;
     overflow:hidden;
     background-color:#2A363B;
+    font-size:0;
 }
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 100px;
+  height: 200px;
   overflow:hidden;
   background-color: #E84A5F;
+  color:white;
 }
-
-/* Custom page CSS
--------------------------------------------------- */
-/* Not required for template or sticky footer method. */
-
 .container .text-muted {
   margin: 20px 0;
 }
@@ -82,6 +87,9 @@ body {
   padding-left: 15px;
 }
 @media (min-width:992px){
+    .banner{
+        text-align:left;
+    }
     .banner h1{
         font-size:70px;
         margin:50px 0;
