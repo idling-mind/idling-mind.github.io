@@ -110,8 +110,6 @@ h1,h2,h3{
 }
 /*------------Styles for footer------------*/
 .footer {
-  position: absolute;
-  bottom: 0;
   width: 100%;
   overflow:hidden;
   background-color: #99B898;
