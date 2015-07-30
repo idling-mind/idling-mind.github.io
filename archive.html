@@ -4,13 +4,13 @@ title: Archive
 ---
 Here's a complete list of posts in this site
 
-<ul>
+<ul class="archive-post-list-ul">
 {% for post in site.posts %}
 <li>
+    <span class="post-category">{{ post.category }}</span>
     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
     <span class="post-date">{{ post.date | date_to_string }}</span>
     {{ post.excerpt }}
-    {{ post.category }}
 </li>
 {% endfor %}
 </ul>
