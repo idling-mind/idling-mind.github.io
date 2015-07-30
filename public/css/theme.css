@@ -84,7 +84,6 @@ h1,h2,h3{
   background-color:#2A363B;
   color:#ccc;
   padding:20px 0;
-  flex:1;
 }
 .post-list h2 {
     color:#99B898;
@@ -131,6 +130,9 @@ h1,h2,h3{
 }
 
 /*------------Styles for other general items------------*/
+.flexer{
+  flex:1;
+}
 .hori-shadow-top{
   width:100%;
   height:10px;
