@@ -49,7 +49,7 @@ h1,h2,h3{
     margin:0 20px;
     }
 .banner{
-    background-color:#E84A5F;
+    background-color:#99B898;
     padding:0;
     color:white;
     font-family: 'Gloria Hallelujah', cursive;
@@ -96,27 +96,21 @@ h1,h2,h3{
   /* Set the fixed height of the footer here */
   height: 200px;
   overflow:hidden;
-  background-color: #E84A5F;
+  background-color: #99B898;
   color:rgba(255,255,255,0.3);
 }
 .footer > .container {
   padding-right: 15px;
   padding-left: 15px;
 }
-.footer-list a{
+.footer a{
     display:block;
-  color:rgba(255,255,255,0.3);
+    color:rgba(255,255,255,0.3);
 }
-.footer-list a:hover{
+.footer a:hover{
   color:rgba(255,255,255,0.5);
 }
-}
-.footer-list li>a{
-    color:rgba(255,255,255,0.5);
-}
-.footer-list li>a:hover{
-    color:rgba(255,255,255,0.8);
-}    
+  
 @media (min-width:992px){
     .banner{
         text-align:left;
