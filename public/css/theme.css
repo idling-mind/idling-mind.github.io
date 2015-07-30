@@ -19,6 +19,7 @@ body {
   display:flex;
   min-height:100vh;
   flex-direction:column;
+  margin-top:50px;
 }
 h1,h2,h3{
     font-family: 'Gloria Hallelujah', cursive;
@@ -114,6 +115,7 @@ h1,h2,h3{
   overflow:hidden;
   background-color: #99B898;
   color:rgba(255,255,255,0.5);
+  padding:20px 0;
 }
 .footer > .container {
   padding-right: 15px;
