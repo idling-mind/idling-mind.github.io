@@ -13,8 +13,7 @@ body {
   /* Margin bottom by footer height */
   margin-top: 50px;
   margin-bottom: 200px; /*Edit footer height according to this*/
-  font-family: 'Ubuntu', sans-serif;
-  font-weight:300;
+  font-family: "PT Serif", Georgia, "Times New Roman", serif;
   font-size:18px;
 }
 h1,h2,h3{
@@ -84,7 +83,7 @@ h1,h2,h3{
 .insta-list{
     padding:0;
     overflow:hidden;
-    background-color:#2A363B;
+    background-color:#FF847C;
     font-size:0;
 }
 .footer {
