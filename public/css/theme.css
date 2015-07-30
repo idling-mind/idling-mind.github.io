@@ -101,7 +101,7 @@ h1,h2,h3{
   overflow:hidden;
   background-color: #99B898;
   box-shadow: inset 1px 1px 5px black;
-  color:rgba(255,255,255,0.3);
+  color:rgba(255,255,255,0.5);
 }
 .footer > .container {
   padding-right: 15px;
@@ -112,7 +112,8 @@ h1,h2,h3{
     color:rgba(255,255,255,0.3);
 }
 .footer a:hover{
-  color:rgba(255,255,255,0.5);
+  color:rgba(255,255,255,0.7);
+  text-decoration:none;
 }
   
 @media (min-width:992px){
