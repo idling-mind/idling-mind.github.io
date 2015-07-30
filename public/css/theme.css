@@ -102,6 +102,15 @@ h1,h2,h3{
   padding-right: 15px;
   padding-left: 15px;
 }
+.footer-list li{
+    display:block;
+}
+.footer-list li>a{
+    color:rgba(255,255,255,0.5);
+}
+.footer-list li>a:hover{
+    color:rgba(255,255,255,0.8);
+}    
 @media (min-width:992px){
     .banner{
         text-align:left;
