@@ -143,6 +143,9 @@ h1,h2,h3{
     .banner p{
         font-size:40px;
     }
+    .banner img{
+      margin:10px;
+    }
     .section h1.section-title{
         font-size:35px;
     }
