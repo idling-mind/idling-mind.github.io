@@ -22,6 +22,7 @@ h1,h2,h3{
 .navbar-brand{
     font-size:25px;
     font-family: 'Gloria Hallelujah', cursive;
+    padding-top:10px;
 }
 .navbar{
     background-color:#2A363B;
