@@ -26,7 +26,7 @@ h1,h2,h3{
 .navbar{
     background-color:#2A363B;
     border:0;
-    box-shadow:2px 2px 5px black;
+    box-shadow:2px 2px 5px rgba(0,0,0,0.5);
 }
 #navbar li.active>a{
     color:#E84A5F; 
@@ -72,6 +72,7 @@ h1,h2,h3{
   background-color:#2A363B;
   color:#ccc;
   padding:20px 0;
+  box-shadow:-2px -2px 10px rgba(0,0,0,0.5);
 }
 .post-list h2 {
     color:#99B898;
@@ -95,12 +96,8 @@ h1,h2,h3{
   height: 200px;
   overflow:hidden;
   background-color: #E84A5F;
-  color:white;
+  color:rgba(255,255,255,0.3);
 }
-.container .text-muted {
-  margin: 20px 0;
-}
-
 .footer > .container {
   padding-right: 15px;
   padding-left: 15px;

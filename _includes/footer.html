@@ -1,5 +1,25 @@
     <footer class="footer">
       <div class="container">
-        <p>{{ site.description }}</p>
+        <div class="row">
+            <div class="col-mod-4">
+                {{ site.description }}
+            </div>
+            <div class="col-mod-4">
+                <h3>Links</h3>
+                <ul class="footer-list">
+                    {% assign pages_list = site.pages | sort:"url" %}
+                    {% for node in pages_list %}
+                      {% if node.title != null %}
+                        {% if node.layout == "page" %}
+                          <li><a href="{{ node.url }}">{{ node.title }}</a></li>
+                        {% endif %}
+                      {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h3>Contact</h3>
+            </div>
+        </div>
       </div>
     </footer>
