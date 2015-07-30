@@ -16,6 +16,9 @@ body {
   font-family: "PT Serif", Georgia, "Times New Roman", serif;
   font-size:18px;
 }
+h1,h2,h3{
+    font-family: 'Gloria Hallelujah', cursive;
+}
 .navbar-brand{
     font-size:25px;
     font-family: 'Gloria Hallelujah', cursive;
@@ -38,9 +41,12 @@ body {
     margin:10px;
     display:block;
     font-size:25px;
-    font-family: 'Gloria Hallelujah', cursive;
     color:#E84A5F;
 }
+.section .section-title>span{
+    display:inline-block;
+    margin:0 20px;
+    }
 .banner{
     background-color:#E84A5F;
     padding:0;
