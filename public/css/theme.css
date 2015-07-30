@@ -37,6 +37,7 @@ h1,h2,h3{
     color:#E84A5F;
 }
 .section{
+  position:relative;
 }
 .section h1.section-title{
     margin:10px;
