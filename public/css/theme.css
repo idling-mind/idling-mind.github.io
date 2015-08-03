@@ -24,7 +24,7 @@ body {
   min-height:100vh;
   flex-direction:column;
 }
-h1,h2,h3{
+h1{
     font-family: 'Montserrat', sans-serif;
 }
 /*------------Styles for navbar------------*/
@@ -47,7 +47,7 @@ h1,h2,h3{
 }
 #navbar a{
     font-family: 'Montserrat', sans-serif;
-    font-size:20px;
+    font-size:15px;
 }
 #navbar a:hover{
     color:#E84A5F;
