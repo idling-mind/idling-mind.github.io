@@ -45,6 +45,10 @@ h1,h2,h3{
     color:#E84A5F; 
     background-color:inherit;
 }
+#navbar a{
+    font-family: 'Montserrat', sans-serif;
+    font-size:20px;
+}
 #navbar a:hover{
     color:#E84A5F;
 }
@@ -174,9 +178,9 @@ h1,h2,h3{
       margin:10px;
     }
     .section h1.section-title{
-        font-size:35px;
+        font-size:25px;
     }
     .post-list h2 {
-        font-size:30px;
+        font-size:20;
     }
 }
