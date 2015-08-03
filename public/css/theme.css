@@ -67,7 +67,7 @@ h1{
     margin:0 20px;
     }
 .banner{
-    background-color:#99B898;
+    background-image:url("/assets/images/backpattern.png");
     padding:0;
     color:white;
     font-family: 'Montserrat', sans-serif;
