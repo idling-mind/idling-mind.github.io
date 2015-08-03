@@ -8,7 +8,7 @@ excerpt: I had made a color scheme for VIM text editor called vim-subtle.
 It works well in gui as well as in terminal.
 You will have to enable 256 colors in vim and also set the terminal to be xterm-256 colors.
 
-```vimscript
+```
     set t_Co=256 
 ```
 
