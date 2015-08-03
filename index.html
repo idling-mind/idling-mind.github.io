@@ -11,9 +11,9 @@ title: Home
                     <img src="/assets/images/idle.png" alt-text="{{ site.title }}">
                 </div>
                 <div class="col-md-8">
-                    <h1>{{ site.title }}</h1>
+                    <h1>{{ site.title | upcase }}</h1>
                     <p>
-                        {{ site.tagline }}
+                        {{ site.tagline | upcase }}
                     </p>
                 </div>
             </div>
@@ -23,12 +23,12 @@ title: Home
     <div class="section post-list flexer">
         <div class="container">
             <div class="row">
-                <h1 class="section-title"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Blog Posts</h1>
+                <h1 class="section-title"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>BLOG POSTS</h1>
             </div>
           <div class="row">
           {% for post in paginator.posts %}
             <div class="col-md-4">
-              <h2>{{ post.title }}</h2>
+              <h2>{{ post.title | upcase }}</h2>
               <span class="post-date">{{ post.date | date_to_string }}</span>
               {{ post.excerpt }}
               <a class="post-more" href={{ post.url }}>More >></a>
