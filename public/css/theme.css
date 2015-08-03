@@ -25,12 +25,12 @@ body {
   flex-direction:column;
 }
 h1,h2,h3{
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Montserrat', sans-serif;
 }
 /*------------Styles for navbar------------*/
 .navbar-brand{
     font-size:25px;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Montserrat', sans-serif;
     padding-top:10px;
 }
 .navbar{
@@ -67,7 +67,7 @@ h1,h2,h3{
     background-color:#99B898;
     padding:0;
     color:white;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Montserrat', sans-serif;
     text-align:center;
 }
 .banner h1, .banner h2{
