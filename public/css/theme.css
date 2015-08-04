@@ -105,10 +105,10 @@ a {
 }
 .post-list h2 {
     color:#99B898;
-    font-size:20px;
+    font-size:25px;
 }
 .post-list .post{
-    background-color:#3f4a4e;
+    background-color:#253035;
     border:solid 5px #2A363B;
     padding:20px;
 }
@@ -187,6 +187,6 @@ a {
         font-size:25px;
     }
     .post-list h2 {
-        font-size:20;
+        font-size:25px;
     }
 }
