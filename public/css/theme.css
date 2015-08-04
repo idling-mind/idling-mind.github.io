@@ -15,6 +15,8 @@ body {
   font-family: "PT Serif", Georgia, "Times New Roman", serif;
   font-size:18px;
 }
+*::-moz-selection { color: red}
+*::selection { color: red; }
 .site{
   display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
   display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
