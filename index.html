@@ -24,7 +24,7 @@ title: Home
             </div>
           <div class="row">
           {% for post in paginator.posts %}
-            <div class="col-md-4">
+            <div class="post col-md-4">
               <h2>{{ post.title }}</h2>
               <span class="post-date">{{ post.date | date_to_string }}</span>
               {{ post.excerpt }}

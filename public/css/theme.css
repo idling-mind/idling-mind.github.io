@@ -45,6 +45,9 @@ h1{
     color:#E84A5F; 
     background-color:inherit;
 }
+.banner img{
+      margin:10px;
+    }
 #navbar a{
     font-family: 'Montserrat', sans-serif;
     font-size:15px;
@@ -81,7 +84,7 @@ h1{
     color:rgba(255,255,255,0.8);
 }
 .banner h2{
-    font-size:30px;
+    font-size:40px;
     font-family:"Sacramento", cursive;
     color:rgba(255,255,255,0.8);
 }
@@ -103,6 +106,9 @@ h1{
 .post-list h2 {
     color:#99B898;
     font-size:20px;
+}
+.post-list .post{
+    clear:both;
 }
 .post-list .post-more{
     color:#E84A5F;
@@ -127,7 +133,7 @@ h1{
 .footer {
   width: 100%;
   overflow:hidden;
-  background-color: #99B898;
+  background-color: #10254a;
   color:rgba(255,255,255,0.5);
   padding:20px 0;
 }
@@ -169,18 +175,9 @@ h1{
   
 /*------------Style changes for big screens------------*/
 @media (min-width:992px){
-    .banner{
-        text-align:left;
-    }
     .banner h1{
-        font-size:70px;
+        font-size:25px;
         margin:50px 0;
-    }
-    .banner p{
-        font-size:40px;
-    }
-    .banner img{
-      margin:10px;
     }
     .section h1.section-title{
         font-size:25px;
