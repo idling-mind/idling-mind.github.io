@@ -27,6 +27,10 @@ body {
 h1{
     font-family: 'Montserrat', sans-serif;
 }
+a {
+    text-decoration:none;
+    color:inherit;
+}
 /*------------Styles for navbar------------*/
 .navbar-brand{
     font-size:25px;
@@ -104,6 +108,9 @@ h1{
     font-size:20px;
 }
 .post-list .post{
+    background-color:#3f4a4e;
+    border:solid 5px #2A363B;
+    padding:20px;
 }
 .post-list .post-more{
     color:#E84A5F;
@@ -128,9 +135,12 @@ h1{
 .footer {
   width: 100%;
   overflow:hidden;
+  font-family: 'Montserrat', sans-serif;
   background-color: #192023;
   color:rgba(255,255,255,0.5);
+  margin-top:20px;
   padding:20px 0;
+  text-transform:uppercase;
 }
 .footer > .container {
   padding-right: 15px;
