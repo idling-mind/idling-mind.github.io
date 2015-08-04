@@ -15,8 +15,8 @@ body {
   font-family: "PT Serif", Georgia, "Times New Roman", serif;
   font-size:18px;
 }
-*::-moz-selection { color: red}
-*::selection { color: red; }
+*::-moz-selection { color: #E84A5F}
+*::selection { color: #E84A5F }
 .site{
   display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
   display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
@@ -143,6 +143,9 @@ a {
   padding:20px 0;
   text-transform:uppercase;
 }
+.footer h2{
+    font-size:16px; 
+}
 .footer > .container {
   padding-right: 15px;
   padding-left: 15px;
@@ -150,6 +153,7 @@ a {
 .footer a{
     display:block;
     color:rgba(255,255,255,0.3);
+    font-size:14px;
 }
 .footer a:hover{
   color:rgba(255,255,255,0.7);
