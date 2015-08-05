@@ -103,6 +103,10 @@ a {
   display:block;
   color:gray;
 }
+.post-exerpt{
+  height:200px;
+  overflow:hidden;
+}
 .post-more{
   display:inline-block;
 }
