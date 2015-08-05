@@ -99,16 +99,9 @@ a {
 .banner p{
     font-size:25px;
 }
-.post-title{
-  height:60px;
-}
 .post-date{
   display:block;
   color:gray;
-}
-.post-excerpt{
-  height:200px;
-  overflow:hidden;
 }
 .post-more{
   display:inline-block;
@@ -204,6 +197,13 @@ a {
     }
     .section h1.section-title{
         font-size:25px;
+    }
+    .post-title{
+        height:60px;
+    }
+    .post-excerpt{
+        height:200px;
+        overflow:hidden;
     }
     .post-list h2 {
         font-size:25px;
