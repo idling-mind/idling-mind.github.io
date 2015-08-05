@@ -85,7 +85,7 @@ a {
     font-family: 'Montserrat', sans-serif;
 }
 .banner h1, .banner h2{
-    text-shadow:1px 1px 2px rgba(0,0,0,0.3);
+    text-shadow:1px 1px 5px rgba(0,0,0,1);
     text-align:center;
     color:#99B898;
 }
@@ -145,7 +145,7 @@ a {
   overflow:hidden;
   font-family: 'Montserrat', sans-serif;
   background-color: #192023;
-  color:rgba(255,255,255,0.5);
+  color:rgba(255,255,255,0.2);
   padding:20px 0;
   text-transform:uppercase;
 }
