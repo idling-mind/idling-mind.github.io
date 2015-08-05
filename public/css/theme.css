@@ -99,6 +99,9 @@ a {
 .banner p{
     font-size:25px;
 }
+.post-title{
+  height:50px;
+}
 .post-date{
   display:block;
   color:gray;
