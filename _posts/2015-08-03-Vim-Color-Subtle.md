@@ -13,7 +13,7 @@ You will have to enable 256 colors in vim and also set the terminal to be xterm-
 ```
 
 Here is a screenshot of the colour in terminal window
-![Subtle](/assets/images/subtle.png){: .img-reponsive}
+![Subtle](/assets/images/subtle.png){: .img-responsive}
 
 And here is a screenshot of the same in gvim.
-![Subtle Gvim](/assets/images/subtle_gvim.png){: .img-reponsive}
+![Subtle Gvim](/assets/images/subtle_gvim.png){: .img-responsive}
