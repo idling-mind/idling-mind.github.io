@@ -8,7 +8,7 @@ Calcker, a python based calculator. I was not so happy with the default linux ca
 
 Here is a screenshot of Calcker. And a [link to the git](https://github.com/idling-mind/calcker)
 
-![Calcker](/assets/images/calcker.png)
+![Calcker](/assets/images/calcker.png){: .img-responsive}
 
 I was bored of using the regular calculator from linux for doing quick calculations. 
 
