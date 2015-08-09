@@ -20,3 +20,9 @@ Here are the things in my mind
 2. Add a commenting option in the page with the help of [Diqus](https://disqus.com/)
 3. Add an Archive page with links to all my posts
 4. Write some good posts!!
+
+#Update
+1. Tried material design. Didn't felt pleasing. It looked just lie another google app and I didnt want that :)
+2. Disqus up and running. I tried google plus commenting option. But somehow, i felt disqus does a better job.
+3. Arhive page, Done!
+4. About to write some good posts!!
